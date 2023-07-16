@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type="checkbox"],
+  [type="radio"] {
+    @apply h-5 w-5 rounded border-gray-300 text-pink-500   focus:ring-indigo-500;
+  }
+}
